@@ -213,8 +213,10 @@ pub enum EventObject {
     ApplicationFeeRefund(ApplicationFeeRefund),
     Balance(Balance),
     BankAccount(BankAccount),
+    Card(Card),
     Charge(Charge),
     Customer(Customer),
+    Discount(Discount),
     Dispute(Dispute),
     #[serde(rename = "checkout.session")]
     CheckoutSession(CheckoutSession),
